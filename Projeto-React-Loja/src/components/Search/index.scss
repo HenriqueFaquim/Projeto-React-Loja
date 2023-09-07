@@ -1,0 +1,37 @@
+@use '../../sass/variables' as *;
+
+.search{
+    text-align: center;
+    margin: 1% 15%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 20fr 1fr 1fr;
+
+    svg{
+        margin: auto;
+    }
+
+    &__bar{
+        color: gray;
+        border-style: solid;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 0fr 5fr;
+        width: 100%;
+        padding: 0.2rem;
+        border-radius: 15px;
+    }
+
+    input{
+        padding: 0.3rem;
+        border: none;
+        font-weight: bolder;
+        box-shadow: 0 0 0 0;
+        outline: 0;
+    }
+
+    input:focus ~ &__bar{
+        border-color: $contrast-color;
+    }
+
+}

@@ -1,0 +1,26 @@
+.header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 0fr 5fr 0.7fr;
+
+    ul{
+        display: flex;
+    }
+
+    li{
+        padding: 2rem;
+        text-align: start;
+        list-style: none;
+    }
+
+    &__cart{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        margin: auto 1%;
+        padding: auto;
+    }
+    p{
+        margin: auto;
+    }
+}

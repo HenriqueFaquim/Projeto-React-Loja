@@ -1,0 +1,24 @@
+@use './variables' as *;
+
+@mixin grind-default{
+    display: grid;
+    grid-auto-flow: row;
+}
+
+@mixin main-button(){
+    font-size: 1.125rem;
+    font-weight: 800;
+    width: 32.75rem;
+    height: 3rem;
+    border-radius: 0.375rem;
+    background: $contrast-color;
+    color: $white;
+    border-style: none;
+    transition-duration: 0.3s;
+    a{
+    text-decoration: none !important;
+    font-style: none;
+    color: $white;
+    }
+
+}
