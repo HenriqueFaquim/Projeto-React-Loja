@@ -36,7 +36,9 @@
     }
 
     button{
-        @include main-button()
+        @include main-button();
+        width: 32.75rem;
+        height: 3rem;
     }
 
     button:hover{

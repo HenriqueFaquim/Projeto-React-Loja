@@ -11,15 +11,34 @@
         padding: 2rem;
         text-align: start;
         list-style: none;
+        cursor: pointer;
+        transition-duration: 0.1s;
+    }
+
+    a{
+        text-decoration: none !important;
+        font-style: none;
+        color: black;
+        }
+
+    li:hover{
+        transform: scale(1.1);
     }
 
     &__cart{
         display: flex;
         text-align: center;
         justify-content: space-around;
-        margin: auto 1%;
+        margin: auto 10%;
         padding: auto;
+        cursor: pointer;
+        transition-duration: 0.1s;
     }
+
+    &__cart:hover{
+        transform: scale(1.1);
+    }
+
     p{
         margin: auto;
     }

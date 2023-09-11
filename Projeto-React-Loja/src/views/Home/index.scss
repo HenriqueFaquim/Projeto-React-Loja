@@ -1,0 +1,10 @@
+.cards{
+    display: grid;
+    grid-template-columns:33% 34% 33%;
+    margin-top: 3rem;
+
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
